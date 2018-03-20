@@ -1,5 +1,6 @@
 def greet_backwards(name)
-	name.reverse!
+	return name.reverse!
+
 end 
 
 puts greet_backwards("abc")
